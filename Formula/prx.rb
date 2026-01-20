@@ -24,7 +24,7 @@ class Prx < Formula
   on_macos do
     on_arm do
       url "https://github.com/ravi-technologies/prx-releases/releases/download/v#{version}/prx-#{version}-macos-arm64.tar.gz"
-      sha256 "e95767782f95262232572a230e8252eb23956684b76a8f9a7cd2f5094197e900"
+      sha256 "156da98d85d7f45907a75a05b41d0025c9eab0c44e7cac1ba6dd443e4204ee0a"
     end
 
     # TODO: Re-enable when Intel builds available
