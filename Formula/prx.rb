@@ -14,7 +14,7 @@
 class Prx < Formula
   desc "AI-powered code review CLI"
   homepage "https://github.com/ravi-technologies/prx"
-  version "0.1.2"
+  version "0.1.3"
   license "Proprietary"
 
   # Binaries are downloaded from the public release repository
@@ -24,7 +24,7 @@ class Prx < Formula
   on_macos do
     on_arm do
       url "https://github.com/ravi-technologies/prx-releases/releases/download/v#{version}/prx-#{version}-macos-arm64.tar.gz"
-      sha256 "109c36a8f2bd7a8f5c97cd4d078697292aed3fe63e8d0ec687a8cbbb480327a4"
+      sha256 "ac3e25a56b5ce77bdf8b7e34eebe761c4967128e89b2aa8b1f0627380629abd6"
     end
 
     # TODO: Re-enable when Intel builds available
